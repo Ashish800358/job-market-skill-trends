@@ -1,0 +1,8 @@
+{
+  "programming": ["python", "java", "javascript", "typescript", "go", "c++", "c#", "r", "scala"],
+  "data": ["sql", "excel", "pandas", "numpy", "spark", "hadoop", "tableau", "power bi", "snowflake"],
+  "ml_ai": ["machine learning", "deep learning", "tensorflow", "pytorch", "scikit-learn", "nlp"],
+  "cloud_devops": ["aws", "azure", "gcp", "docker", "kubernetes", "terraform"],
+  "web": ["react", "node", "express", "flask", "fastapi", "django"],
+  "analytics": ["a/b testing", "statistics", "visualization", "dashboards"]
+}
