@@ -12,3 +12,7 @@ data/processed/*.parquet
 
 # Streamlit
 .streamlit/
+
+# Ignore CSV output files
+latest.csv
+*.csv
