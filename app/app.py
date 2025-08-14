@@ -29,9 +29,11 @@ if st.button("Compute Top Skills"):
         s = s or ""
         s = s.lower()
         s = re.sub(r"[\r\n]+", " ", s)
-        s = re.sub(r"[^a-z0-9+#./\\- ]", " ", s)
+        # Put '-' at the end and allow whitespace via \s
+        s = re.sub(r"[^a-z0-9+#./\s-]", " ", s)
         s = re.sub(r"\s+", " ", s).strip()
         return s
+
 
     with open("analysis/skills_list.json", "r", encoding="utf-8") as f:
         skills_dict = json.load(f)
