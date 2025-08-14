@@ -5,6 +5,14 @@ An interactive dashboard that analyzes real job postings to reveal the most in-d
 
 Scrape job postings from job boards, extract in-demand skills using NLP, and visualize them in an interactive dashboard.
 
+![Skill Trends Dashboard](image.png)
+
+## Features
+- **Job Posting Scraper** – Collects the latest job postings for a chosen role & location.
+- **Skill Extraction with NLP** – Identifies and counts in-demand technical and soft skills.
+- **Interactive Dashboard** – Explore skill frequency trends via a Streamlit app.
+- **Customizable** – Change roles, locations, and skill lists easily.
+
 ## Quickstart
 
 ```bash
@@ -33,3 +41,6 @@ PY
 ## Notes
 - Initial source: RemoteOK (simple fetch)
 - Expand skills list in `analysis/skills_list.json` as needed.
+
+## Contact:
+Email: mail.manavarthe.ashish@gmail.com
